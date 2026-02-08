@@ -1,0 +1,9 @@
+This folder contains different solutions to the popular leetcode problem
+
+1. Two Sum
+
+Problem: Given an array of integers, return indices of the two numbers that add up to a specific target.
+
+Topics: Arrays, HashMap
+
+There will be multiple solution files in the same folder. Usually a brute force solution and then a more efficient one.
