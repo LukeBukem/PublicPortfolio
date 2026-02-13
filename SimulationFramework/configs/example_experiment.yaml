@@ -1,0 +1,13 @@
+population_size: 50
+generations: 20
+mutation_rate: 0.05
+environment: wander
+seed: 42
+evolution_strategy: ga
+agent_type: wander
+width: 12
+height: 12
+max_steps: 30
+tournament_size: 3
+exploration_rate: 0.1
+early_stop_max_fitness: -0.05

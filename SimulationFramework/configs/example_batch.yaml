@@ -1,0 +1,21 @@
+experiments:
+  - population_size: 40
+    generations: 15
+    mutation_rate: 0.05
+    environment: wander
+    seed: 42
+    evolution_strategy: ga
+    agent_type: wander
+    width: 10
+    height: 10
+    max_steps: 20
+  - population_size: 40
+    generations: 15
+    mutation_rate: 0.1
+    environment: wander
+    seed: 43
+    evolution_strategy: ga
+    agent_type: wander
+    width: 14
+    height: 14
+    max_steps: 25
