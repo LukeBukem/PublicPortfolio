@@ -1,0 +1,19 @@
+{
+  "experiment_id": "example-sweep-001",
+  "config_path": "configs/plugin_example.yaml",
+  "output_dir": "experiments",
+  "runs_per_param_set": 2,
+  "seed_strategy": "incremental",
+  "base_seed": 100,
+  "generations": 25,
+  "sweep": {
+    "grid": {
+      "mutation_rate": [0.05, 0.1],
+      "population_size": [20, 40]
+    },
+    "random_samples": 1,
+    "random_space": {
+      "elite_fraction": {"min": 0.05, "max": 0.2}
+    }
+  }
+}

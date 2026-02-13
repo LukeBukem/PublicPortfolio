@@ -1,0 +1,31 @@
+simulation: wandering_agents_adv
+params:
+  room_width: 50
+  room_height: 50
+  initial_agents: 24
+  max_hunger: 10
+  move_distance: 5
+  food_hunger_gain: 3
+  hunger_decay_per_step: 1
+  food_spawn_per_step: -1
+  food_spawn_divisor: 2
+  mating_hunger_fraction: 0.5
+  mating_min_hunger: 5
+  mating_hunger_cost: 2
+  offspring_deviation_pct: 0.2
+  initial_agreeable_min: 0.0
+  initial_agreeable_max: 1.0
+  initial_aggression_min: 0.0
+  initial_aggression_max: 1.0
+  max_population: 500
+  mutation_rate: 0.2
+evolution:
+  population_size: 333
+  mutation_rate: 0.27
+  crossover_rate: 0.7
+  elite_fraction: 0.05
+  random_seed: 909
+logging:
+  log_interval: 10
+  checkpoint_interval: 25
+  experiment_name: wandering_agents_adv_demo

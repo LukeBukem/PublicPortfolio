@@ -1,0 +1,1 @@
+{"experiment_id": "mgr-smoke", "config_path": "configs/plugin_example.yaml", "output_dir": "experiments\\manager_smoke", "runs_per_param_set": 1, "seed_strategy": "fixed", "base_seed": 1, "generations": 3, "sweep": {"grid": {"mutation_rate": [0.1]}, "random_samples": 0, "random_space": {}}}

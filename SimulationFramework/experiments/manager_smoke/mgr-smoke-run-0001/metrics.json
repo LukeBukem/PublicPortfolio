@@ -1,0 +1,29 @@
+{
+  "summary": {
+    "mean_agent_x_position": 10.033333333333333,
+    "mean_agent_x_position_max": 10.1,
+    "step_count": 2.0,
+    "step_count_max": 3.0,
+    "fitness_score": 0.0,
+    "diversity_score": 0.0,
+    "convergence_time": 3.0,
+    "genome_complexity": 3.0
+  },
+  "series": {
+    "mean_agent_x_position": [
+      10.04,
+      9.96,
+      10.1
+    ],
+    "step_count": [
+      1.0,
+      2.0,
+      3.0
+    ],
+    "fitness": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}
